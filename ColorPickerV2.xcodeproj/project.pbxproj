@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D705D95121907653007661EA /* img_hsv003.png in Resources */ = {isa = PBXBuildFile; fileRef = D705D94E21907653007661EA /* img_hsv003.png */; };
+		D705D95221907653007661EA /* img_hsv001.png in Resources */ = {isa = PBXBuildFile; fileRef = D705D94F21907653007661EA /* img_hsv001.png */; };
+		D705D95321907653007661EA /* img_hsv002.png in Resources */ = {isa = PBXBuildFile; fileRef = D705D95021907653007661EA /* img_hsv002.png */; };
+		D748BB70218EBA5D0079CF1C /* GeosansLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D74FE8FD218E9A1D0052BB59 /* GeosansLight.ttf */; };
+		D748BB71218EBA5D0079CF1C /* mplus-1mn-thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D74FE8FE218E9A1D0052BB59 /* mplus-1mn-thin.ttf */; };
+		D748BB72218EBA5D0079CF1C /* mplus-1mn-light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D74FE8FF218E9F140052BB59 /* mplus-1mn-light.ttf */; };
+		D74DAF1E2199A1A000678C2A /* BookmarkTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D74DAF1C2199A1A000678C2A /* BookmarkTableViewCell.swift */; };
+		D74DAF1F2199A1A000678C2A /* BookmarkTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D74DAF1D2199A1A000678C2A /* BookmarkTableViewCell.xib */; };
 		D74FE8D0218E857C0052BB59 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D74FE8CF218E857C0052BB59 /* AppDelegate.swift */; };
 		D74FE8D2218E857C0052BB59 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D74FE8D1218E857C0052BB59 /* ViewController.swift */; };
 		D74FE8D5218E857C0052BB59 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D74FE8D3218E857C0052BB59 /* Main.storyboard */; };
@@ -34,6 +42,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D705D94E21907653007661EA /* img_hsv003.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_hsv003.png; sourceTree = "<group>"; };
+		D705D94F21907653007661EA /* img_hsv001.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_hsv001.png; sourceTree = "<group>"; };
+		D705D95021907653007661EA /* img_hsv002.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_hsv002.png; sourceTree = "<group>"; };
+		D74DAF1C2199A1A000678C2A /* BookmarkTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BookmarkTableViewCell.swift; path = ../BookmarkTableViewCell.swift; sourceTree = "<group>"; };
+		D74DAF1D2199A1A000678C2A /* BookmarkTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BookmarkTableViewCell.xib; sourceTree = "<group>"; };
 		D74FE8CC218E857C0052BB59 /* ColorPickerV2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorPickerV2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D74FE8CF218E857C0052BB59 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D74FE8D1218E857C0052BB59 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +60,9 @@
 		D74FE8EB218E857F0052BB59 /* ColorPickerV2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColorPickerV2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D74FE8EF218E857F0052BB59 /* ColorPickerV2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerV2UITests.swift; sourceTree = "<group>"; };
 		D74FE8F1218E857F0052BB59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D74FE8FD218E9A1D0052BB59 /* GeosansLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GeosansLight.ttf; sourceTree = "<group>"; };
+		D74FE8FE218E9A1D0052BB59 /* mplus-1mn-thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "mplus-1mn-thin.ttf"; sourceTree = "<group>"; };
+		D74FE8FF218E9F140052BB59 /* mplus-1mn-light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "mplus-1mn-light.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +113,16 @@
 		D74FE8CE218E857C0052BB59 /* ColorPickerV2 */ = {
 			isa = PBXGroup;
 			children = (
+				D74FE8FD218E9A1D0052BB59 /* GeosansLight.ttf */,
+				D74FE8FE218E9A1D0052BB59 /* mplus-1mn-thin.ttf */,
+				D74FE8FF218E9F140052BB59 /* mplus-1mn-light.ttf */,
+				D705D94F21907653007661EA /* img_hsv001.png */,
+				D705D95021907653007661EA /* img_hsv002.png */,
+				D705D94E21907653007661EA /* img_hsv003.png */,
 				D74FE8CF218E857C0052BB59 /* AppDelegate.swift */,
 				D74FE8D1218E857C0052BB59 /* ViewController.swift */,
+				D74DAF1C2199A1A000678C2A /* BookmarkTableViewCell.swift */,
+				D74DAF1D2199A1A000678C2A /* BookmarkTableViewCell.xib */,
 				D74FE8D3218E857C0052BB59 /* Main.storyboard */,
 				D74FE8D6218E857E0052BB59 /* Assets.xcassets */,
 				D74FE8D8218E857E0052BB59 /* LaunchScreen.storyboard */,
@@ -229,9 +253,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D748BB70218EBA5D0079CF1C /* GeosansLight.ttf in Resources */,
+				D748BB71218EBA5D0079CF1C /* mplus-1mn-thin.ttf in Resources */,
+				D748BB72218EBA5D0079CF1C /* mplus-1mn-light.ttf in Resources */,
+				D74DAF1F2199A1A000678C2A /* BookmarkTableViewCell.xib in Resources */,
 				D74FE8DA218E857E0052BB59 /* LaunchScreen.storyboard in Resources */,
+				D705D95121907653007661EA /* img_hsv003.png in Resources */,
 				D74FE8D7218E857E0052BB59 /* Assets.xcassets in Resources */,
 				D74FE8D5218E857C0052BB59 /* Main.storyboard in Resources */,
+				D705D95221907653007661EA /* img_hsv001.png in Resources */,
+				D705D95321907653007661EA /* img_hsv002.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,6 +289,7 @@
 			files = (
 				D74FE8D2218E857C0052BB59 /* ViewController.swift in Sources */,
 				D74FE8D0218E857C0052BB59 /* AppDelegate.swift in Sources */,
+				D74DAF1E2199A1A000678C2A /* BookmarkTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
