@@ -10,6 +10,8 @@
 		D705D95121907653007661EA /* img_hsv003.png in Resources */ = {isa = PBXBuildFile; fileRef = D705D94E21907653007661EA /* img_hsv003.png */; };
 		D705D95221907653007661EA /* img_hsv001.png in Resources */ = {isa = PBXBuildFile; fileRef = D705D94F21907653007661EA /* img_hsv001.png */; };
 		D705D95321907653007661EA /* img_hsv002.png in Resources */ = {isa = PBXBuildFile; fileRef = D705D95021907653007661EA /* img_hsv002.png */; };
+		D719522621A43C59007A7502 /* AppIcon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D719522521A43C59007A7502 /* AppIcon.jpg */; };
+		D719522821A46E1F007A7502 /* LAUNCHIMG.JPG in Resources */ = {isa = PBXBuildFile; fileRef = D719522721A46E1F007A7502 /* LAUNCHIMG.JPG */; };
 		D748BB70218EBA5D0079CF1C /* GeosansLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D74FE8FD218E9A1D0052BB59 /* GeosansLight.ttf */; };
 		D748BB71218EBA5D0079CF1C /* mplus-1mn-thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D74FE8FE218E9A1D0052BB59 /* mplus-1mn-thin.ttf */; };
 		D748BB72218EBA5D0079CF1C /* mplus-1mn-light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D74FE8FF218E9F140052BB59 /* mplus-1mn-light.ttf */; };
@@ -45,6 +47,8 @@
 		D705D94E21907653007661EA /* img_hsv003.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_hsv003.png; sourceTree = "<group>"; };
 		D705D94F21907653007661EA /* img_hsv001.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_hsv001.png; sourceTree = "<group>"; };
 		D705D95021907653007661EA /* img_hsv002.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_hsv002.png; sourceTree = "<group>"; };
+		D719522521A43C59007A7502 /* AppIcon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = AppIcon.jpg; sourceTree = "<group>"; };
+		D719522721A46E1F007A7502 /* LAUNCHIMG.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = LAUNCHIMG.JPG; sourceTree = "<group>"; };
 		D74DAF1C2199A1A000678C2A /* BookmarkTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BookmarkTableViewCell.swift; path = ../BookmarkTableViewCell.swift; sourceTree = "<group>"; };
 		D74DAF1D2199A1A000678C2A /* BookmarkTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BookmarkTableViewCell.xib; sourceTree = "<group>"; };
 		D74FE8CC218E857C0052BB59 /* ColorPickerV2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorPickerV2.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -113,6 +117,8 @@
 		D74FE8CE218E857C0052BB59 /* ColorPickerV2 */ = {
 			isa = PBXGroup;
 			children = (
+				D719522721A46E1F007A7502 /* LAUNCHIMG.JPG */,
+				D719522521A43C59007A7502 /* AppIcon.jpg */,
 				D74FE8FD218E9A1D0052BB59 /* GeosansLight.ttf */,
 				D74FE8FE218E9A1D0052BB59 /* mplus-1mn-thin.ttf */,
 				D74FE8FF218E9F140052BB59 /* mplus-1mn-light.ttf */,
@@ -255,7 +261,9 @@
 			files = (
 				D748BB70218EBA5D0079CF1C /* GeosansLight.ttf in Resources */,
 				D748BB71218EBA5D0079CF1C /* mplus-1mn-thin.ttf in Resources */,
+				D719522821A46E1F007A7502 /* LAUNCHIMG.JPG in Resources */,
 				D748BB72218EBA5D0079CF1C /* mplus-1mn-light.ttf in Resources */,
+				D719522621A43C59007A7502 /* AppIcon.jpg in Resources */,
 				D74DAF1F2199A1A000678C2A /* BookmarkTableViewCell.xib in Resources */,
 				D74FE8DA218E857E0052BB59 /* LaunchScreen.storyboard in Resources */,
 				D705D95121907653007661EA /* img_hsv003.png in Resources */,
@@ -464,14 +472,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = E4293L5X5K;
+				DEVELOPMENT_TEAM = N4JHK8TCB5;
 				INFOPLIST_FILE = ColorPickerV2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = me.abeckento.ColorPickerV2;
+				PRODUCT_BUNDLE_IDENTIFIER = me.abeckento.ColorMixer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -482,14 +492,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = E4293L5X5K;
+				DEVELOPMENT_TEAM = N4JHK8TCB5;
 				INFOPLIST_FILE = ColorPickerV2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = me.abeckento.ColorPickerV2;
+				PRODUCT_BUNDLE_IDENTIFIER = me.abeckento.ColorMixer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";

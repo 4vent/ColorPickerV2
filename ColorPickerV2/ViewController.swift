@@ -64,9 +64,9 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     var colorArray = [Int]()
     var bookmarkArray = [[String]]() //[[名前,赤(255),緑(255),青(255)]]
     
-    var redValue: Int = 255
-    var greenValue: Int = 255
-    var blueValue: Int = 255
+    var redValue: Int = 90
+    var greenValue: Int = 190
+    var blueValue: Int = 165
     var hueValue: Int = 0
     var saturationValue: Int = 100
     var brightnessValue: Int = 100
@@ -79,6 +79,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     let screenwidth: CGFloat = UIScreen.main.bounds.width
     
     override func viewDidLoad() {
+        
         super.viewDidLoad()
         bookmarkTable.register(UINib(nibName: "BookmarkTableViewCell", bundle: nil), forCellReuseIdentifier: "Bookmark")
         
